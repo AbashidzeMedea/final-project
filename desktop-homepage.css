@@ -1,0 +1,16 @@
+@media screen and (min-width: 1440px) {
+  
+
+  .header-flex {
+    gap: 120px;
+  }
+
+  .second-section img, .third-section img {
+    width: 100%;
+  }
+
+  .second-section-text-div, .third-section-text-div {
+        max-width: 40%;
+    }
+
+ }

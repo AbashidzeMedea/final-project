@@ -1,0 +1,68 @@
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  nav {
+    height: 123px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .nav-menu-div {
+    display: inline-block;
+  }
+
+  .nav-burgermenu {
+    display: none;
+  }
+
+  img {
+    max-width: none;
+  }
+
+  .logo-flex {
+    gap: 18px;
+  }
+
+  .logo-text {
+    font-size: 40px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 48px;
+  }
+
+  .text-div {
+    margin-top: 30px;
+    margin-bottom: 67px;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .main-flex {
+    gap: 40px; 
+  }
+
+  textarea {
+    height: 75px;
+  }
+
+  .map-div iframe {
+    height: 384px;
+  }
+
+  .black-button,
+  .small,
+  textarea,
+  .map-div iframe {
+    width: 500px;
+  }
+}

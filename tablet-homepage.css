@@ -1,0 +1,84 @@
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  nav {
+    margin-bottom: 40px;
+  }
+
+  .nav-menu-div {
+    display: inline-block;
+  }
+
+  .nav-burgermenu {
+    display: none;
+  }
+
+  section {
+    padding: 0px 130px;
+  }
+
+  .fourth-section {
+    padding: 0px 90px;
+  }
+
+  header {
+    background-color: rgba(116, 198, 157, 1);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 35px;
+    padding-bottom: 83px;
+    width: 100%;
+  }
+
+  .logo-flex {
+    gap: 18px;
+  }
+
+  .logo-text {
+    font-size: 40px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 48px;
+  }
+
+  .header-flex {
+    align-items: center;
+  }
+
+  .first-section-socialmedia-div {
+    column-gap: 68px;
+    flex-direction: row;
+  }
+
+  .second-section-text-div,
+  .third-section-text-div {
+    row-gap: 20px;
+  }
+
+  .fourth-section {
+    row-gap: 45px;
+  }
+
+  .team-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 47px;
+    justify-content: center;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

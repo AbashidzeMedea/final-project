@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-family: "Work Sans", sans-serif;
+  
+  
+}
+
+footer {
+  background-color: rgba(116, 198, 157, 1);
+  height: 125px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 375px) {
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+  }
+
+  h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+  }
+
+  .sub-heading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .label {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .logo-flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .logo-text {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .logo {
+    width: 45px;
+    height: 31px;
+  }
+
+  .burgermenu {
+    border: none;
+    background-color: inherit;
+  }
+
+  .nav-menu-div {
+    display: none;
+  }
+
+  nav {
+    background-color: rgba(116, 198, 157, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav-menu-ul li {
+    display: inline-block;
+  }
+
+  .nav-menu-ul a {
+    color: white;
+  }
+
+  .nav-menu-ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  .text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-top: 34px;
+    margin-bottom: 46px;
+  }
+
+  .text-div p {
+    text-align: center;
+  }
+
+  .label {
+    color: #74c69d;
+  }
+
+  .black-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 170px;
+    height: 48px;
+  }
+
+  .black-button:hover {
+     
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.9);
+    transition: 0.4s;
+  }
+
+  
+
+  .grey-one {
+    color: rgba(33, 37, 41, 0.5);
+    text-align: center;
+  }
+
+  .price {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .check {
+    width: 25px;
+    height: 25px;
+  }
+
+  .flex-div {
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom:68px;
+    row-gap: 50px;
+  }
+
+  .main-div {
+    width: 339px;
+    height: 542px;
+    padding: 46px 30px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+  }
+
+ 
+
+  .flex-div,
+  .main-div,
+  .sub-div,
+  .price-div,
+  .number-div,
+  .dollar-div,
+  .terms-div,
+  .check-box-div {
+    display: flex;
+  }
+
+  .flex-div,
+  .main-div,
+  .sub-div,
+  .price-div,
+  .number-div,
+  .terms-div {
+    flex-direction: column;
+  }
+  .flex-div,
+  .main-div,
+  .number-div,
+  .dollar-div {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub-div .price-div {
+    justify-content: center;
+  }
+
+  
+
+  .terms-div {
+    align-items: flex-start;
+    
+  }
+
+  .check-box-div {
+    align-items: center;
+    height: 25px;
+  }
+
+  .main-div {
+    gap: 45px;
+  }
+
+  .sub-div {
+    gap: 52px;
+  }
+
+  .price-div {
+    gap: 10px;
+  }
+
+  .dollar-div {
+    gap: 9px;
+  }
+
+  .terms-div,
+  .check-box-div {
+    gap: 11px;
+  }
+
+  footer .sub-heading {
+    color: white;
+  }
+
+  footer,
+  .icon-div {
+    display: flex;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .icon-div {
+    flex-direction: row;
+    gap: 20px;
+  }
+}

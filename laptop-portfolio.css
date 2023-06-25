@@ -1,0 +1,23 @@
+@media screen and (min-width: 1200px) {
+    .main-flex {
+        flex-direction: row;
+        
+    }
+    
+    .main-flex img {
+    width: 500px;
+  }
+
+  nav {
+    padding-left: 135px;
+    padding-right: 130px;
+  }
+
+  footer{
+    padding-left: 131px;
+    padding-right: 131px;
+   }
+
+  
+
+}

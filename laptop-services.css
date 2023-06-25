@@ -1,0 +1,17 @@
+@media screen and (min-width: 1200px) {
+    .flex-div {
+        margin-bottom: 135px;
+        
+    }
+
+    nav {
+        padding-left:135px;
+        padding-right: 130px;
+    }
+
+   footer{
+    padding-left: 131px;
+    padding-right: 131px;
+   }
+   
+}

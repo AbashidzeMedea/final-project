@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+footer {
+  background-color: rgba(116, 198, 157, 1);
+  height: 125px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 375px) {
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+  }
+
+  .sub-heading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .logo-flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .logo-text {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .logo {
+    width: 45px;
+    height: 31px;
+  }
+
+  .burgermenu {
+    border: none;
+    background-color: inherit;
+  }
+
+  .nav-menu-div {
+    display: none;
+  }
+
+  nav {
+    background-color: rgba(116, 198, 157, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav-menu-ul li {
+    display: inline-block;
+  }
+
+  .nav-menu-ul a {
+    color: white;
+  }
+
+  .nav-menu-ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  .text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 45px;
+  }
+
+  .text-div p {
+    text-align: center;
+  }
+
+  
+
+  .black-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 335px;
+    height: 48px;
+  }
+
+  .black-button:hover {
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.9);
+    transition: 0.4s;
+  }
+
+  footer .sub-heading {
+    color: white;
+  }
+
+  footer,
+  .icon-div {
+    display: flex;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .icon-div {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .main-flex {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 59px;
+  }
+
+  .black-button {
+    width: 335px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:"Work Sans", sans-serif ;
+  }
+
+  .map-div iframe {
+    width: 335px;
+    height: 224px;
+  }
+
+  input, textarea {
+    display:block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: rgba(238, 238, 238, 1);
+  }
+
+  label {
+    font-size: 20px;
+    font-family:"Work Sans", sans-serif ;
+    
+  }
+
+  .small {
+    width: 335px;
+    height:38px;
+  }
+
+  textarea {
+    width: 335px;
+    height: 141px;
+    
+  }
+
+  .main-flex,
+  form,
+  .inputs-div,
+  .input-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-flex {
+    gap: 21px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    gap: 30px;
+  }
+
+  .inputs-div {
+    gap:21px;
+  }
+
+  .input-div {
+    gap:16px;
+  }
+}
+
+ 

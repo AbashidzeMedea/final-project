@@ -1,0 +1,13 @@
+@media screen and (min-width:1440px) {
+
+    .map-div iframe {
+        height: 384px;
+    }
+
+    .black-button,
+    .small,
+    textarea,
+    .map-div iframe {
+        width: 575px;
+    }
+}

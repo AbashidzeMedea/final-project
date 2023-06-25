@@ -1,0 +1,44 @@
+@media screen and (min-width:1200px) {
+
+    header {
+        padding-left: 130px;
+    padding-right: 130px;
+    }
+
+    .first-section {
+        margin-top:60px;
+        margin-bottom:73px;
+    }
+    .second-section, .third-section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .third-section {
+        flex-direction: row-reverse;
+    }
+
+    .second-section img, .third-section img {
+        width: 400px;
+        height: auto;
+    }
+
+    .second-section-text-div, .third-section-text-div {
+        max-width: 50%;
+    }
+
+    .header-flex {
+        flex-direction: row-reverse;
+    }
+    .header-flex img {
+      max-width: none;
+    }
+
+    footer{
+    padding-left: 131px;
+    padding-right: 131px;
+   }
+    
+}

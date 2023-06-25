@@ -1,0 +1,9 @@
+@media screen and (min-width: 1440px) {
+  nav {
+    padding-left: 135px;
+    padding-right: 130px;
+  }
+  .main-flex {
+    padding: 0px 130px;
+  }
+}
